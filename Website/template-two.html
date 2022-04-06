@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags are elements that go along for the ride when a browser (Chrome, Firefox, etc.) requests a page from a server. The server can use this info to change how it responds. Meta tags are not visible to users on your pages, but are important nonetheless. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cookie Dough</title>
+    <link rel="icon" type="image/x-icon" href="Cookie Favicon.png">
+
+    <!-- We import the CSS stylesheet here. Without this resource reference link, none of the styling will appear. -->
+    <link rel="stylesheet" href="./template-two-style.css">
+</head>
+<body>
+    <!-- Different from the <head> tag, the <header> is for the content at the top of your page. -->
+    <header>
+        <section id="branding">
+            <h1>Edible Cookie Dough Recipe</h1>
+        </section>
+
+        <h2>Let's get cooking!</h2>
+
+        <nav>
+            <a href="#">Top</a>
+            <a href="#about">recipe</a>
+            <a href="#contact">FAQ</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- We use semantic tags like <article> and <section> rather than <div> to be compliant with modern accessibility standards. -->
+        <article class="grid one-column">
+            <!-- Note that the <section> elements are given classes like "grid" and "two-column". This lets us define what those classes mean in our CSS documents and prevents us from having to code the styling over and over for each individual element. Look up DRY (Don't Repeat Yourself) code principles. -->
+            <section class="grid two-column">
+                <img src="Cookie bowl.jpg" width=300 height=300 alt="Cookie dough in a bowl">
+
+                <section>
+                    <h2 id="about">What you'll need</h2>
+                    <ul class=Morespace>
+                      <li><span>All-purpose flour:</span> heat treated to kill bacteria
+                      <li><span>Granulated sugar and brown sugar:</span> for classic flavor
+                      <li><span>Unsalted butter:</span> salted butter works too, but use a pinch of salt if used
+                      <li><span>Salt:</span> for flavor
+                      <li><span>Vanilla extract:</span> real vanilla for best flavor
+                      <li><span>Milk:</span> so the cookie dough isn't dry
+                      <li><span> Mini or regular chocolate chips:</span> whichever you prefer
+                      </ul>
+                </section>
+            </section>
+
+<h2>How to make it</h2>
+            <section class="grid two-column">
+                <ul class="Space nodeco">
+                  <li><span>Heat treat the flour:</span> Spread 3 cups in an 18 by 13 inch baking sheet. Bake in a preheated oven for 7 minutes, or until flour temperature is 160 degrees. Let it cool completely then transfer to an airtight container.</li>
+                  <li><span>Butter, sugar, and salt:</span> Add butter, brown sugar, and granulated sugar to a mixing bowl, then sprinkle salt. With an electric mixer, mix until it is pale and fluffy. </li>
+                </ul>
+
+                <ul class="Space nodeco">
+                  <li><span>Blend in liquids:</span> Add in milk and vanilla, mix until well blended.
+                  <li><span> Blend in flour:</span>Add in the heat treated flour, and mix until combined.</li>
+                  <li><span>Chocolate:</span> add chocolate chips, then fold with a rubber spatula until evenly distributed.
+                </ul>
+            </section>
+
+            <section class="grid one-column">
+                <img src="Close cookie.jpg" alt="Close up of cookie dough">
+            </section>
+
+            <section class="grid one-column">
+                <h2 id="contact">FAQ</h2>
+                <ul class=nodeco>
+                  <li><span>How long does cookie dough last in the fridge?</span> Serve right away, or save in the fridge in a container for up to a week. </li>
+                  <li><span>Can I freeze it?</span> Yes, frozen cookie dough can be stored up to 2 months.</li>
+                  <li><span>Can I add it to ice cream?</span> Yes, if you don't add a lot of milk, you can shape the dough easily.</li>
+                  <li><span>Can I mix by hand?</span> Yes, you can mix by hand. Melting the butter is recommended to make the mixing easier in this case.</li>
+                  <li><span>Can I bake this cookie dough?</span> No, due to the lack of eggs and baking soda, the cookies will be flat if cooked.</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2022 Harley Burress</p>
+    </footer>
+</body>
+</html>
